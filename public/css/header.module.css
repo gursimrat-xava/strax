@@ -1,3 +1,60 @@
-.headerContainer {
-    background-color: grey;
+.headercontainerCustom {
+width: 100%;
+}
+/* .containerCustom nav {
+    z-index: 999;
+} */
+.searchButton {
+    border: 0;
+    background: transparent;
+    margin-right: 1rem;
+}
+
+.ReachButton
+{
+    padding: .7rem 1.2rem ;
+    line-height: 1.5;
+    font-size: calc(.875rem + .125 * ((100vw - 20rem)/ 100));
+    background-color: #fff;
+    border: none;
+}
+
+.ReachButton:hover
+{
+    background-color: #0e1b66;
+    color: #fff;
+}
+
+.NavLinks {
+    color: rgba(0,0,0,.55);
+    font-size: calc(.875rem + .125 * ((100vw - 20rem)/ 100));
+    line-height: 1.75;
+    padding: 0.5rem 1.20rem;
+    display: flex;
+    align-items: center;
+}
+
+/* nav.navbar-fixed-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1080;
+    top: 0;
+} */
+/* .stickytop
+
+{
+    background-color: #fff;
+} */
+
+
+
+
+@media only screen and (max-width: 480px)
+{
+    .ReachButton, .searchButton {
+        display: none;
+    }
+
+    
 }

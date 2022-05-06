@@ -1,0 +1,107 @@
+.FooterCustom
+{
+    background-color:#051A64;
+    color: #fff;
+}
+
+.footNav
+{
+    list-style-type: none;
+    padding-left: 0;
+    position: relative;
+
+}
+.footNav li a
+{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.75;
+
+}
+
+.footNav li 
+{
+    padding: 0.5rem;
+
+}
+
+.footer_footNav__hVzvt li a  {
+    position: relative;
+    display: inline-block;
+}
+
+.iconouter
+{
+    position: relative;
+    display: inline-block;
+}
+.Arrowicon
+{
+    top: 0.8rem;
+    opacity: 0;
+    stroke: #fff;
+    transition: opacity .6s;
+    position: absolute;
+    left: 0rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.iconouter:hover 
+{
+    text-decoration: none;
+    padding-left: 1.8rem;
+    transition: padding-left .6s;
+    cursor: pointer;
+}
+
+.iconouter:hover .Arrowicon
+{
+    opacity: 1;
+
+}
+
+.footNavOuter strong
+{
+    font-size: calc(1.25rem + .25 * ((100vw - 20rem)/ 100));
+    color: #fff;
+    padding: 0.5rem;
+    line-height: 1.33;
+    font-weight: 400;
+}
+
+.socialMediaOut
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.socialMediaOut li
+{
+    display: inline-block;
+    width: 7%;
+    float: left;
+    margin: 0.6rem;
+    opacity: 0.5;
+}
+
+.socialMediaOut li:hover
+{
+    opacity: 1;
+}
+
+.copyRight
+{
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+
+.copyRight p
+{
+    width:100%;
+    color: #fff;
+    font-size: calc(.875rem + .125 * ((100vw - 20rem)/ 100));
+    line-height: 1.75;
+    opacity: 0.5;
+}
+

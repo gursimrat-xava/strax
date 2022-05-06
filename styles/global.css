@@ -7,6 +7,9 @@ body {
   line-height: 1.6;
   font-size: 18px;
 }
+html {
+  overflow-x: hidden;
+}
 
 * {
   box-sizing: border-box;
@@ -18,10 +21,22 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 img {
   max-width: 100%;
   display: block;
+  width:100%;
+}
+
+/* main {
+  margin-top: -5rem;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+  z-index: 999;
+} */
+
+body {
+  overflow-x: hidden;
 }
