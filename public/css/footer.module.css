@@ -21,8 +21,14 @@
 
 .footNav li 
 {
-    padding: 0.5rem;
+    padding: 0.3rem;
 
+}
+
+.FooterCustom
+
+{
+    padding: 2rem 3.2rem;
 }
 
 .footer_footNav__hVzvt li a  {

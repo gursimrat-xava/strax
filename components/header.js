@@ -20,7 +20,7 @@ export default function Header() {
       
 
       <Navbar fixed="top" expand="lg">
-        <Container fluid>
+        <Container fluid className={`px-5`}>
             <Navbar.Brand href="#home"><Image src="/images/logo-strax-header.png" height={35} // Desired size with correct aspect ratio
       width={150} // Desired size with correct aspect ratio
       alt="Your Name"

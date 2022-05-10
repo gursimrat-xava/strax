@@ -7,7 +7,7 @@ import { Container, Nav, Navbar, NavDropdown,Button,fluid,svg,span } from 'react
 export default function Header() {
   return (
     <div>
-       <footer className={`p-5 ${footerStyle.FooterCustom}`}>
+       <footer className={` ${footerStyle.FooterCustom}`}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -64,7 +64,7 @@ export default function Header() {
               
             </div>
             </div>
-            <div className={`row border-top border-secondary ${footerStyle.row}`}>
+            <div className={`row border-top border-secondary pt-4 ${footerStyle.row}`}>
             <div className={`col-md-6 ${footerStyle.socialMedia}`} >
                  <ul className={`${footerStyle.socialMediaOut}`}>
                     <li><a href='#'><Image src="/images/icon-social-fb.png" width={100} height={100} alt="Your Name"/></a></li>

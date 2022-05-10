@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className="col-md-4">
             <h3 className={`${homeStyle.heading}`}> Sustainability</h3>
-            <p>Our portfolio of Branded accessories covers all majors mobile accessory categories: protection, Power, Connectivity,
+            <p className={`p-0`}>Our portfolio of Branded accessories covers all majors mobile accessory categories: protection, Power, Connectivity,
               personal Audio and Health & Wellness. Our distribution business reaches a board customer base.
             </p>
             
@@ -176,7 +176,7 @@ export default function Home() {
       </section>
 
 
-      <section className={`p-4 ${homeStyle.news}`}>
+      <section className={`${homeStyle.news}`}>
         <div className="row">
           <h2 className={`${homeStyle.createheading}`}>News<hr className={`${homeStyle.createhr}`}></hr></h2>
           <div className={`col-md-4 ${homeStyle.topimageouter}`}>
