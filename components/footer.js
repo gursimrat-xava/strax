@@ -4,7 +4,7 @@ import footerStyle from '../public/css/footer.module.css';
 import { Container, Nav, Navbar, NavDropdown,Button,fluid,svg,span } from 'react-bootstrap';
 
 
-export default function Header() {
+export default function Footer() {
   return (
     <div>
        <footer className={` ${footerStyle.FooterCustom}`}>
